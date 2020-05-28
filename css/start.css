@@ -1,0 +1,47 @@
+body {
+  background: #fff;
+}
+header {
+  position: absolute;
+  top: 80px;
+  left: 68vw;
+  z-index: 9999;
+}
+
+nav {
+  overflow: hidden;
+  font-family: Arial;
+}
+
+nav a {
+  float: left;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  padding-left: 16px;
+  padding-top: 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.pro {
+  position: absolute;
+  background-image: url(../img/start.jpg);
+  background-size: 75vw;
+  top: 60px;
+  left: 12.5vw;
+  max-width: 1800px;
+  width: 75vw;
+  max-height: 1127px;
+  height: 85vh;
+}
+
+#lynn {
+  position: absolute;
+  width: 40vw;
+  left: 20vw;
+  top: 55vh;
+}

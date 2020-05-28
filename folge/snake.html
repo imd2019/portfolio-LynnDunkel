@@ -1,0 +1,82 @@
+<!-- Problem: responsive lunar lander nicht möglich -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Lynn Dunkel</title>
+
+  <link rel="stylesheet" type="text/css" href="../css/snake.css" />
+  <script src="../js/imgs.js"></script>
+  <script src="../js/p5.min.js"></script>
+  <script src="../js/p5setup.js"></script>
+  <script src="../js/map.js"></script>
+  <script src="../js/ghost.js"></script>
+  <script src="../js/gadget.js"></script>
+  <script src="../js/snake.js"></script>
+
+
+
+
+  <!-- GRT Youtube Plugin CSS -->
+  <link rel="stylesheet" href="../css/grt-responsive-menu.css" />
+
+  <!-- Jquery -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+  <!-- Quelle für Menü:
+    https://www.jqueryscript.net/menu/Sticky-Mobile-Navigation-GRT-Responsive-Menu.html -->
+</head>
+
+<body>
+  <header>
+    <div class="menu-container">
+      <div class="grt-menu-row">
+        <div class="grt-menu-logo">
+          <a href="../index.html" class="grt-logo"><img src="../img/name-white.png" /></a>
+        </div>
+        <div class="grt-menu-right">
+          <nav>
+            <button class="grt-mobile-button">
+              <span class="line1"></span><span class="line2"></span><span class="line3"></span>
+            </button>
+            <ul class="grt-menu">
+              <li class="active">
+                <a href="https://imd.mediencampus.h-da.de/">IMD</a>
+              </li>
+              <li><a href="about.html">About</a></li>
+              <li class="grt-dropdown">
+                <a>Projekte</a>
+                <ul class="grt-dropdown-list">
+                  <li><a href="lunarlander.html">Lunar Lander</a></li>
+                  <li><a href="snake.html">Snac-Man</a></li>
+                  <li><a href="roulette.html">Roulette</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div id="content">
+      <img id="arrowExplain" src="../img/arrow.svg" alt="navigate" />
+      <img id="score" src="../img/score.svg" alt="beat your score" />
+      <img id="logo" src="../img/logo.svg" alt="snac man" />
+      <img id="explain" src="../img/expl.svg" alt="good to know" />
+      <img id="space" src="../img/space.svg" alt="press space bar to restart" />
+      <div id="snakejs"></div>
+    </div>
+  </main>
+
+  <!-- Github button for demo page -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+  <!-- GRT Youtube Popup -->
+  <script src="../js/grt-responsive-menu.js"></script>
+</body>
+
+</html>
