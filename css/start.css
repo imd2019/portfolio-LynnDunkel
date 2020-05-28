@@ -27,16 +27,17 @@ nav a:hover {
   text-decoration: underline;
 }
 
-.pro {
-  position: absolute;
+.grid-container {
+  display: grid;
+  color: black;
+  grid-template-columns: 12.5vw 75vw 12.5vw;
+  grid-template-rows: 60px 87vh;
+}
+#item1 {
   background-image: url(../img/start.jpg);
-  background-size: 75vw;
-  top: 60px;
-  left: 12.5vw;
-  max-width: 1800px;
-  width: 75vw;
-  max-height: 1127px;
-  height: 85vh;
+  background-size: 100%;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
 }
 
 #lynn {

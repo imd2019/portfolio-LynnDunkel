@@ -40,11 +40,47 @@ nav a:hover {
 .grid-container {
   display: grid;
   color: black;
-  grid-template-columns: 12.5vw 75vw 12.5vw;
-  grid-template-rows: 60px 85vh;
+  grid-template-columns: 12.5vw 25vw 25vw 25vw 12.5vw;
+  grid-template-rows: 60px 28vh 28vh 28vh;
 }
 #item1 {
   background-color: #66ccff;
-  grid-column: 2 / 3;
+  grid-column: 2 / 5;
   grid-row: 2 / 3;
+}
+
+#snacman {
+  background-image: url(../img/snac.svg);
+  background-color: #66ccff;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+}
+
+#wallE {
+  background-image: url(../img/wall.svg);
+  background-color: #66ccff;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+}
+
+#monster {
+  background-image: url(../img/monster.svg);
+  background-color: #66ccff;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  grid-column: 4 / 5;
+  grid-row: 3 / 4;
+}
+
+.platzhalter {
+  background-color: #66ccff;
+  grid-column: 2 / 5;
+  grid-row: 4 / 5;
 }
