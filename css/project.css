@@ -26,17 +26,6 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* .pro {
-  position: absolute;
-  background-color: #66ccff;
-  top: 60px;
-  left: 12.5vw;
-  max-width: 1800px;
-  width: 75vw;
-  max-height: 1127px;
-  height: 85vh;
-} */
-
 .grid-container {
   display: grid;
   color: black;
@@ -49,7 +38,7 @@ nav a:hover {
   grid-row: 2 / 3;
 }
 
-#snacman {
+.snacman {
   background-image: url(../img/snac.svg);
   background-color: #66ccff;
   background-position: center center;
@@ -59,7 +48,7 @@ nav a:hover {
   grid-row: 3 / 4;
 }
 
-#wallE {
+.wallE {
   background-image: url(../img/wall.svg);
   background-color: #66ccff;
   background-position: center center;
@@ -69,7 +58,7 @@ nav a:hover {
   grid-row: 3 / 4;
 }
 
-#monster {
+.monster {
   background-image: url(../img/monster.svg);
   background-color: #66ccff;
   background-position: center center;
@@ -77,6 +66,26 @@ nav a:hover {
   background-size: 50%;
   grid-column: 4 / 5;
   grid-row: 3 / 4;
+}
+.wallE:hover {
+  color: #fff;
+  opacity: 0.5;
+}
+.monster:hover {
+  color: #fff;
+  opacity: 0.5;
+}
+.snacman:hover {
+  color: #fff;
+  opacity: 0.5;
+}
+.text {
+  display: none;
+}
+.text:hover {
+  display: block;
+  text-align: center;
+  color: #000;
 }
 
 .platzhalter {
