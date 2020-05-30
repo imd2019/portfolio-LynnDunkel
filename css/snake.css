@@ -1,0 +1,60 @@
+body {
+  background: #000;
+  background: linear-gradient(to bottom, #000, #1f1919);
+  height: 130vh;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+main {
+  position: relative;
+}
+
+#arrowExplain {
+  position: absolute;
+  width: 200px;
+  top: -250px;
+  left: -552.5px;
+}
+
+#score {
+  position: absolute;
+  width: 200px;
+  left: -552.5px;
+  top: 50px;
+}
+
+#logo {
+  position: absolute;
+  top:-350px;
+  width: 400px;
+  left: -200px;
+
+}
+
+#explain {
+  position: absolute;
+  width: 200px;
+  left: 352.5px;
+  top: -250px;
+}
+
+#space {
+  position: absolute;
+  width: 200px;
+  left: 352.5px;
+  top: 50px;
+}
+
+#snakejs {
+  position: absolute;
+  width: 665px;
+  height: 600px;
+  left: -332.5px;
+  top: -275px;
+}
