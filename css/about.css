@@ -63,14 +63,14 @@ nav a:hover {
   background-color: #fff;
   left: 18vw;
   top: 18vw;
-  width: 30vw;
+  width: 40vw;
   height: 27vw;
 }
 .content {
   position: absolute;
   left: 18vw;
   top: 18vw;
-  width: 30vw;
+  width: 40vw;
 }
 
 p {
@@ -83,5 +83,5 @@ p {
 #think {
   text-align: center;
   font-style: italic;
-  padding-top: 3vw;
+  padding-top: 5vw;
 }
