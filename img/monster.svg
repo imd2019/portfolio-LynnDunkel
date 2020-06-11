@@ -1,56 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 24.1.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 122.3 213.4" style="enable-background:new 0 0 122.3 213.4;" xml:space="preserve">
+	 viewBox="0 0 1094 457" style="enable-background:new 0 0 1094 457;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#107202;}
 	.st1{fill:#56891A;}
-	.st2{fill:#FFFFFF;stroke:#56891A;stroke-width:1.6984;stroke-miterlimit:10;}
-	.st3{fill:#FFFFFF;stroke:#56891A;stroke-miterlimit:10;}
+	.st2{fill:#FFFFFF;stroke:#56891A;stroke-width:2.7874;stroke-miterlimit:10;}
+	.st3{fill:#FFFFFF;stroke:#56891A;stroke-width:1.6412;stroke-miterlimit:10;}
 	.st4{fill:#FFFFFF;}
 	.st5{fill:#011835;}
 </style>
-<rect x="39.5" y="191.5" class="st0" width="8.7" height="20.2"/>
-<rect x="69.6" y="191.5" class="st0" width="8.7" height="20.2"/>
-<path class="st0" d="M116.3,156.6h-7.7c-2.7,0-4.8-2.2-4.8-4.8v0c0-2.7,2.2-4.8,4.8-4.8h7.7c2.7,0,4.8,2.2,4.8,4.8v0
-	C121.2,154.4,119,156.6,116.3,156.6z"/>
-<circle class="st0" cx="59.4" cy="56.5" r="28.6"/>
-<rect x="72.2" y="22.3" transform="matrix(0.7816 0.6237 -0.6237 0.7816 33.2048 -40.1059)" class="st0" width="3.4" height="10.1"/>
-<circle class="st1" cx="58.4" cy="55.6" r="27.7"/>
-<rect x="72.1" y="21.9" transform="matrix(0.7816 0.6237 -0.6237 0.7816 33.0548 -39.7554)" class="st1" width="2.4" height="10.8"/>
-<rect x="36.4" y="77.1" transform="matrix(-0.7816 -0.6237 0.6237 -0.7816 17.0802 168.9536)" class="st0" width="3.4" height="8.8"/>
-<rect x="36.9" y="75.7" transform="matrix(-0.7816 -0.6237 0.6237 -0.7816 17.554 167.5522)" class="st1" width="2.4" height="10.1"/>
-<circle class="st2" cx="58.4" cy="55.5" r="23.7"/>
-<circle class="st0" cx="58.1" cy="146.9" r="49"/>
-<circle class="st1" cx="57.3" cy="145.5" r="47.8"/>
-<circle class="st3" cx="85.4" cy="15" r="13.9"/>
-<rect x="86.2" y="98.4" transform="matrix(0.7816 0.6237 -0.6237 0.7816 83.3134 -32.3446)" class="st0" width="3.4" height="8.8"/>
-<rect x="86" y="98" transform="matrix(0.7816 0.6237 -0.6237 0.7816 83.215 -31.9118)" class="st1" width="2.4" height="9.8"/>
-<circle class="st3" cx="27" cy="93.4" r="13.9"/>
-<rect x="54.6" y="83.3" class="st0" width="9.8" height="15.3"/>
-<rect x="54.5" y="79.4" class="st1" width="7.6" height="19.2"/>
-<path class="st1" d="M14.5,159.3l-5.4,5.4c-1.9,1.9-4.9,1.9-6.8,0h0c-1.9-1.9-1.9-4.9,0-6.8l5.4-5.4c1.9-1.9,4.9-1.9,6.8,0h0
-	C16.4,154.4,16.4,157.5,14.5,159.3z"/>
-<path class="st0" d="M82.8,211.7h-7.7c-2.7,0-4.8-2.2-4.8-4.8v0c0-2.7,2.2-4.8,4.8-4.8h7.7c2.7,0,4.8,2.2,4.8,4.8v0
-	C87.6,209.5,85.4,211.7,82.8,211.7z"/>
-<path class="st0" d="M41.9,211.7h-7.7c-2.7,0-4.8-2.2-4.8-4.8v0c0-2.7,2.2-4.8,4.8-4.8h7.7c2.7,0,4.8,2.2,4.8,4.8v0
-	C46.7,209.5,44.6,211.7,41.9,211.7z"/>
-<ellipse class="st0" cx="59.1" cy="167" rx="9.8" ry="15.3"/>
-<ellipse class="st4" cx="59.1" cy="156.6" rx="1.4" ry="4.3"/>
-<ellipse class="st4" cx="61.9" cy="157.6" rx="1.4" ry="4.3"/>
-<ellipse class="st4" cx="56.2" cy="157.6" rx="1.4" ry="4.3"/>
-<ellipse class="st4" cx="59.1" cy="178" rx="1.4" ry="4.3"/>
-<circle class="st5" cx="58.4" cy="55.6" r="14.9"/>
-<circle class="st4" cx="46.8" cy="65.2" r="3.4"/>
-<circle class="st4" cx="64.4" cy="49.3" r="1.7"/>
-<circle class="st5" cx="27" cy="93.4" r="6.2"/>
-<circle class="st4" cx="22.2" cy="97.3" r="1.4"/>
-<circle class="st4" cx="29.5" cy="90.8" r="0.7"/>
-<circle class="st5" cx="85.4" cy="15" r="6.2"/>
-<circle class="st4" cx="80.6" cy="18.9" r="1.4"/>
-<circle class="st4" cx="87.9" cy="12.3" r="0.7"/>
-<circle class="st3" cx="98.9" cy="90.9" r="13.9"/>
-<circle class="st5" cx="98.9" cy="90.9" r="6.2"/>
-<circle class="st4" cx="94.1" cy="94.9" r="1.4"/>
-<circle class="st4" cx="101.4" cy="88.3" r="0.7"/>
+<rect x="188.9" y="340.6" class="st0" width="14.3" height="33.2"/>
+<rect x="238.3" y="340.6" class="st0" width="14.3" height="33.2"/>
+<path class="st0" d="M314.9,283.3h-12.6c-4.4,0-7.9-3.6-7.9-7.9l0,0c0-4.4,3.6-7.9,7.9-7.9h12.6c4.4,0,7.9,3.6,7.9,7.9l0,0
+	C323,279.7,319.4,283.3,314.9,283.3z"/>
+<circle class="st0" cx="221.5" cy="119.1" r="46.9"/>
+<rect x="237.1" y="68.4" transform="matrix(0.6237 -0.7816 0.7816 0.6237 36.6392 218.5813)" class="st0" width="16.6" height="5.6"/>
+<circle class="st1" cx="219.9" cy="117.6" r="45.5"/>
+<rect x="235.5" y="69.2" transform="matrix(0.6237 -0.7816 0.7816 0.6237 36.3568 217.7886)" class="st1" width="17.7" height="3.9"/>
+<rect x="179.4" y="157.3" transform="matrix(0.6237 -0.7816 0.7816 0.6237 -54.8884 206.1153)" class="st0" width="14.4" height="5.6"/>
+<rect x="178.4" y="156.8" transform="matrix(0.6237 -0.7816 0.7816 0.6237 -53.8389 205.6197)" class="st1" width="16.6" height="3.9"/>
+<ellipse transform="matrix(8.248051e-02 -0.9966 0.9966 8.248051e-02 84.7525 326.8842)" class="st2" cx="219.9" cy="117.4" rx="38.9" ry="38.9"/>
+<circle class="st0" cx="219.4" cy="267.4" r="80.4"/>
+<circle class="st1" cx="218.1" cy="265.1" r="78.4"/>
+<circle class="st3" cx="264.2" cy="50.9" r="22.8"/>
+<rect x="261.1" y="192.3" transform="matrix(0.6237 -0.7816 0.7816 0.6237 -51.5272 283.1331)" class="st0" width="14.4" height="5.6"/>
+<rect x="259.1" y="193.2" transform="matrix(0.6237 -0.7816 0.7816 0.6237 -52.0598 282.271)" class="st1" width="16.1" height="3.9"/>
+<circle class="st3" cx="168.4" cy="179.6" r="22.8"/>
+<rect x="213.7" y="163" class="st0" width="16.1" height="25.1"/>
+<rect x="213.5" y="156.6" class="st1" width="12.5" height="31.5"/>
+<path class="st1" d="M147.9,287.8l-8.9,8.9c-3.1,3.1-8,3.1-11.2,0l0,0c-3.1-3.1-3.1-8,0-11.2l8.9-8.9c3.1-3.1,8-3.1,11.2,0l0,0
+	C151,279.7,151,284.8,147.9,287.8z"/>
+<path class="st0" d="M259.9,373.8h-12.6c-4.4,0-7.9-3.6-7.9-7.9l0,0c0-4.4,3.6-7.9,7.9-7.9h12.6c4.4,0,7.9,3.6,7.9,7.9l0,0
+	C267.8,370.2,264.2,373.8,259.9,373.8z"/>
+<path class="st0" d="M192.8,373.8h-12.6c-4.4,0-7.9-3.6-7.9-7.9l0,0c0-4.4,3.6-7.9,7.9-7.9h12.6c4.4,0,7.9,3.6,7.9,7.9l0,0
+	C200.7,370.2,197.3,373.8,192.8,373.8z"/>
+<ellipse class="st0" cx="221.1" cy="300.4" rx="16.1" ry="25.1"/>
+<ellipse class="st4" cx="221.1" cy="283.3" rx="2.3" ry="7.1"/>
+<ellipse class="st4" cx="225.6" cy="285" rx="2.3" ry="7.1"/>
+<ellipse class="st4" cx="216.3" cy="285" rx="2.3" ry="7.1"/>
+<ellipse class="st4" cx="221.1" cy="318.5" rx="2.3" ry="7.1"/>
+<circle class="st5" cx="219.9" cy="117.6" r="24.5"/>
+<circle class="st4" cx="200.9" cy="133.3" r="5.6"/>
+<circle class="st4" cx="229.8" cy="107.2" r="2.8"/>
+<circle class="st5" cx="168.4" cy="179.6" r="10.2"/>
+<circle class="st4" cx="160.5" cy="186" r="2.3"/>
+<circle class="st4" cx="172.5" cy="175.3" r="1.1"/>
+<circle class="st5" cx="264.2" cy="50.9" r="10.2"/>
+<circle class="st4" cx="256.3" cy="57.3" r="2.3"/>
+<circle class="st4" cx="268.3" cy="46.5" r="1.1"/>
+<circle class="st3" cx="286.4" cy="175.5" r="22.8"/>
+<circle class="st5" cx="286.4" cy="175.5" r="10.2"/>
+<circle class="st4" cx="278.5" cy="182.1" r="2.3"/>
+<circle class="st4" cx="290.5" cy="171.2" r="1.1"/>
 </svg>
