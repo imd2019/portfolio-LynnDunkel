@@ -67,7 +67,7 @@ main {
   max-height: 751px;
   margin-left: auto;
   margin-right: auto;
-  background: url(../img/start.jpg) 50% 50% no-repeat;
+  background: url(../img/start.jpg) right 50% no-repeat;
   background-size: auto 100%;
 }
 
@@ -75,14 +75,13 @@ main {
   position: relative;
   width: 100%;
   max-width: 1200px;
-  height: 100%;
   height: 751px;
 }
 
 #portfolio-content-container {
   position: absolute;
+  left: 4.166666%;
   background: rgba(255, 255, 252, 0.45);
-  left: 04.166666%;
   top: 34%;
   width: 91.666666%;
   height: 53.262316%;
@@ -100,10 +99,10 @@ main {
 /* slider */
 
 .slideshow-container {
-  width: 800px;
-
-  position: relative;
-
+  width: 83.333333%;
+  max-width: 1000px;
+  position: absolute;
+  left: 8.333333%;
   margin: auto;
 }
 
@@ -114,33 +113,24 @@ main {
 #prev,
 #next {
   position: absolute;
-
   top: 50%;
-
   font-size: 18px;
-
   font-weight: bold;
-
   padding: 16px;
-
   margin-top: -22px;
-
   border-radius: 0 3px 3px 0;
-
-  color: #fff;
-
+  color: #666666;
   cursor: pointer;
 }
 
 #next {
   right: 0;
-
   border-radius: 3px 0 0 3px;
 }
 
 #prev:hover,
 #next:hover {
-  background-color: rgba(256, 256, 256, 0.2);
+  background-color: rgba(256, 256, 256, 0.65);
 }
 
 .caption {
@@ -148,7 +138,6 @@ main {
   text-align: center;
   position: absolute;
   width: 45%;
-  background-color: burlywood;
   color: #000;
   font-size: 15px;
   padding-left: 5px;
@@ -159,16 +148,19 @@ main {
 
 .dots {
   width: 13px;
-
   height: 13px;
-
-  background: rgba(256, 256, 256, 0.2);
-
+  background: rgba(256, 256, 256, 0.65);
   display: inline-block;
-
   border-radius: 50%;
-
   cursor: pointer;
+}
+#dots {
+  position: absolute;
+  text-align: center;
+  left: 8.333333%;
+  width: 83.333333%;
+  max-width: 1000px;
+  top: 90%;
 }
 
 .fade {
@@ -189,5 +181,5 @@ main {
 
 .active,
 .dot:hover {
-  background-color: #fff;
+  background-color: #666666;
 }
