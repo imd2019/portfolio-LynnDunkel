@@ -1,60 +1,97 @@
 body {
-  background: #000;
-  background: linear-gradient(to bottom, #000, #1f1919);
-  height: 130vh;
-  color: #fff;
-  font-family: "Lato", sans-serif;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background: #fff;
+  display: block;
+}
+header {
+  position: relative;
+  width: 100%;
+  z-index: 9999;
+  background: #fff;
 }
 
+div {
+  display: block;
+}
+
+#header-container {
+  position: relative;
+  top: 80px;
+  width: 100%;
+  max-width: 1200px;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#title {
+  top: 12px;
+  float: left;
+  padding-left: 15px;
+  position: relative;
+  top: 20px;
+}
+
+#lynn {
+  width: 100%;
+  max-width: 130px;
+}
+
+nav {
+  overflow: hidden;
+  font-family: Arial;
+  position: relative;
+  top: 6px;
+  float: right;
+  padding-right: 15px;
+}
+
+nav a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding-left: 16px;
+  padding-top: 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
 
 main {
   position: relative;
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+  max-height: 751px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #66ccff;
 }
 
-#arrowExplain {
-  position: absolute;
-  width: 200px;
-  top: -250px;
-  left: -552.5px;
+#portfolio-container {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  height: 751px;
 }
 
-#score {
+#portfolio-content-container {
   position: absolute;
-  width: 200px;
-  left: -552.5px;
-  top: 50px;
-}
-
-#logo {
-  position: absolute;
-  top:-350px;
-  width: 400px;
-  left: -200px;
-
-}
-
-#explain {
-  position: absolute;
-  width: 200px;
-  left: 352.5px;
-  top: -250px;
-}
-
-#space {
-  position: absolute;
-  width: 200px;
-  left: 352.5px;
-  top: 50px;
+  left: 22.91666666%;
+  top: 10%;
+  width: 55.416666%;
+  height: 79.893475%;
+  max-width: 665px;
+  max-height: 600px;
 }
 
 #snakejs {
-  position: absolute;
+  position: relative;
   width: 665px;
   height: 600px;
-  left: -332.5px;
-  top: -275px;
+  border-color: #ffffff;
+  border-style: solid;
+  border-width: 4px;
 }
