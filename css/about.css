@@ -37,6 +37,7 @@ nav a:hover {
 }
 
 .grid-container {
+  position: relative;
   display: grid;
   color: black;
   grid-template-columns: 12.5vw 75vw 12.5vw;
@@ -57,22 +58,13 @@ nav a:hover {
   top: 15vw;
 }
 
-.bgOpacity {
-  position: absolute;
-  opacity: 0.45;
-  background-color: #fff;
-  left: 18vw;
-  top: 18vw;
-  width: 40vw;
-  height: 27vw;
-}
 .content {
   position: absolute;
+  background: rgba(255, 255, 252, 0.45);
   left: 18vw;
   top: 18vw;
   width: 40vw;
 }
-
 p {
   font-family: Arial;
   font-size: 16px;
@@ -84,4 +76,5 @@ p {
   text-align: center;
   font-style: italic;
   padding-top: 5vw;
+  padding-bottom: 2vw;
 }

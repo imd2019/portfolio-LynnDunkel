@@ -57,20 +57,35 @@ nav a:hover {
   top: 15vw;
 }
 
-.bgOpacity {
+.content {
   position: absolute;
-  opacity: 0.45;
-  background-color: #fff;
+  background: rgba(255, 255, 252, 0.45);
   left: 18vw;
   top: 18vw;
-  width: 65vw;
-  height: 27vw;
+  width: 40vw;
 }
-.slideShow-container {
-  position: absolute;
-  left: 18vw;
-  top: 18vw;
-  width: 65vw;
+p {
+  font-family: Arial;
+  font-size: 16px;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+#think {
+  text-align: center;
+  font-style: italic;
+  padding-top: 5vw;
+  padding-bottom: 2vw;
+}
+
+/* slider */
+
+.slideshow-container {
+  width: 800px;
+
+  position: relative;
+
+  margin: auto;
 }
 
 .name {
@@ -78,7 +93,7 @@ nav a:hover {
 
   top: 0;
 
-  color: #0000;
+  color: #f2f2f2;
 
   padding: 8px 12px;
 
@@ -89,8 +104,8 @@ nav a:hover {
   display: none;
 }
 
-.prev,
-.next {
+#prev,
+#next {
   position: absolute;
 
   top: 50%;
@@ -110,14 +125,14 @@ nav a:hover {
   cursor: pointer;
 }
 
-.next {
+#next {
   right: 0;
 
   border-radius: 3px 0 0 3px;
 }
 
-.prev:hover,
-.next:hover {
+#prev:hover,
+#next:hover {
   background-color: rgba(256, 256, 256, 0.2);
 }
 

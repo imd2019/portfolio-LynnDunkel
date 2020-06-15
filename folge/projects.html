@@ -5,8 +5,6 @@
     <title>Lynn Dunkel</title>
 
     <link rel="stylesheet" href="../css/project.css" />
-    <link rel="stylesheet" href="../css/project.js" />
-
     <script src="js/p5.min.js"></script>
     <script src="js/p5setup.js"></script>
   </head>
@@ -27,114 +25,74 @@
       <div class="grid-container">
         <div id="backgroundImg"></div>
       </div>
-      <div class="bgOpacity"></div>
-      <!-- https://www.youtube.com/watch?v=nJWq74MHplc -->
-      <div class="slideshow-container">
-        <div class="myslides fade">
-          <div class="name">Snacman</div>
+      <div class="content">
+        <!-- https://www.youtube.com/watch?v=nJWq74MHplc -->
+        <script type="module" src="../js/project.js"></script>
+        <div class="slideshow-container">
+          <div class="myslides fade">
+            <div class="name">Snacman</div>
 
-          <div><img src="../img/logo.svg" /></div>
+            <div><img src="../img/logo.svg" /></div>
 
-          <div class="caption">
-            Snac-Man <br />
-            –<br />
-            Die Kombination aus Pacman und Snake.<br /><br />
-            Je mehr du sammelst, desto länger wirst du. <br />
-            Geschicklichkeit ist gefragt: <br />Du darfst nicht gegen Wände
-            laufen.<br />
-            Geister erscheinen und können Löcher in dir entstehen lassen.<br />
-            Aber du kannst auch immun gegen sie werden.<br />
-            Schaffst du es, deinen eigenen Highscore zu knacken?<br /><br />
-            Probier es aus!
+            <div class="caption">
+              Snac-Man <br />
+              –<br />
+              Die Kombination aus Pacman und Snake.<br /><br />
+              Je mehr du sammelst, desto länger wirst du. <br />
+              Geschicklichkeit ist gefragt: <br />Du darfst nicht gegen Wände
+              laufen.<br />
+              Geister erscheinen und können Löcher in dir entstehen lassen.<br />
+              Aber du kannst auch immun gegen sie werden.<br />
+              Schaffst du es, deinen eigenen Highscore zu knacken?<br /><br />
+              Probier es aus!
+            </div>
           </div>
+
+          <div class="myslides fade">
+            <div class="name">Roulette</div>
+
+            <div><img src="../img/monster.svg" /></div>
+
+            <div class="caption">
+              Fred <br />–<br />
+              Das Roulette-Monster<br /><br />
+              Er liebt es zu wetten.<br />
+              Wetten du verlierst? <br />Wähle eine Farbe und schaue nach, ob du
+              Fred besiegen kannst. <br />Sei gewarnt Fred hat echt Glück
+              <br /><br />
+              Wetten wir?
+            </div>
+          </div>
+
+          <div class="myslides fade">
+            <div class="name">Lunar Lander</div>
+
+            <div><img src="../img/walle.svg" /></div>
+
+            <div class="caption">
+              Wall-E<br />–<br />Der Pflanzenretter<br /><br />
+
+              Kannst du ihm helfen? <br />Benutze die Pfeiltasten, um ihn zu
+              steuern. <br />Aber vorsichtig, wenn er zu schnell wird, zestörst
+              du die kostbare Fracht! <br /><br />Finde den perfekten Spot!
+            </div>
+          </div>
+
+          <a id="prev">&#10094;</a>
+
+          <a id="next">&#10095;</a>
         </div>
 
-        <div class="myslides fade">
-          <div class="name">Roulette</div>
+        <br />
 
-          <div><img src="../img/monster.svg" /></div>
+        <div style="text-align: center;">
+          <span class="dots" id="one"></span>
 
-          <div class="caption">
-            Fred <br />–<br />
-            Das Roulette-Monster<br /><br />
-            Er liebt es zu wetten.<br />
-            Wetten du verlierst? <br />Wähle eine Farbe und schaue nach, ob du
-            Fred besiegen kannst. <br />Sei gewarnt Fred hat echt Glück
-            <br /><br />
-            Wetten wir?
-          </div>
+          <span class="dots" id="two"></span>
+
+          <span class="dots" id="three"></span>
         </div>
-
-        <div class="myslides fade">
-          <div class="name">Lunar Lander</div>
-
-          <div><img src="../img/walle.svg" /></div>
-
-          <div class="caption">
-            Wall-E<br />–<br />Der Pflanzenretter<br /><br />
-
-            Kannst du ihm helfen? <br />Benutze die Pfeiltasten, um ihn zu
-            steuern. <br />Aber vorsichtig, wenn er zu schnell wird, zestörst du
-            die kostbare Fracht! <br /><br />Finde den perfekten Spot!
-          </div>
-        </div>
-
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
       </div>
-
-      <br />
-
-      <div style="text-align: center;">
-        <span class="dots" onclick="currentSlide(1)"></span>
-
-        <span class="dots" onclick="currentSlide(2)"></span>
-
-        <span class="dots" onclick="currentSlide(3)"></span>
-      </div>
-      <!-- javascript -->
-      <script type="text/javascript">
-        var slideIndex = 1;
-
-        showSlide(slideIndex);
-
-        function plusSlides(n) {
-          showSlide((slideIndex += n));
-        }
-
-        function currentSlide(n) {
-          showSlide((slideIndex = n));
-        }
-
-        function showSlide(n) {
-          var i;
-
-          var slides = document.getElementsByClassName("myslides");
-
-          var dots = document.getElementsByClassName("dots");
-
-          if (n > slides.length) {
-            slideIndex = 1;
-          }
-
-          if (n < 1) {
-            slideIndex = slides.length;
-          }
-
-          for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-          }
-
-          for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-          }
-
-          slides[slideIndex - 1].style.display = "block";
-
-          dots[slideIndex - 1].className += " active";
-        }
-      </script>
 
       <img id="headline" src="../img/projects.svg" />
     </main>
