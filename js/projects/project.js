@@ -5,6 +5,7 @@ let next = document.getElementById("next");
 let one = document.getElementById("one");
 let two = document.getElementById("two");
 let three = document.getElementById("three");
+let four = document.getElementById("four");
 
 showSlide(slideIndex);
 
@@ -62,4 +63,8 @@ document.getElementById("two").addEventListener("click", function () {
 
 document.getElementById("three").addEventListener("click", function () {
   currentSlide(3);
+});
+
+document.getElementById("four").addEventListener("click", function () {
+  currentSlide(4);
 });
