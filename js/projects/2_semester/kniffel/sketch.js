@@ -1,11 +1,11 @@
-import { Dice } from "./dice.js";
-import { RollAllButton } from "./rollAllButton.js";
-import { Table } from "./table.js";
-import { Title } from "./text.js";
-import { NewGame } from "./newgame.js";
+import Dice from "./dice.js";
+import RollAllButton from "./rollAllButton.js";
+import Table from "./table.js";
+import Title from "./text.js";
+import NewGame from "./newgame.js";
 
 function setup() {
-  canvas.createCanvas(650, 600);
+  var canvas = createCanvas(650, 600);
   canvas.parent("kniffeljs");
 }
 window.setup = setup;
@@ -59,27 +59,27 @@ window.mouseClicked = mouseClicked;
 table.draw();
 
 function textPasche() {
-  let einser = new Title(308, 183, 16, "#23150c", "Einser:");
-  let zweier = new Title(308, 203, 16, "#23150c", "Zweier:");
-  let dreier = new Title(308, 223, 16, "#23150c", "Dreier:");
-  let vierer = new Title(308, 243, 16, "#23150c", "Vierer:");
-  let fünfer = new Title(308, 263, 16, "#23150c", "Fünfer:");
-  let sechser = new Title(308, 283, 16, "#23150c", "Sechser:");
+  let einser = new Title(308, 183, 12, "#23150c", "Einser:");
+  let zweier = new Title(308, 203, 12, "#23150c", "Zweier:");
+  let dreier = new Title(308, 223, 12, "#23150c", "Dreier:");
+  let vierer = new Title(308, 243, 12, "#23150c", "Vierer:");
+  let fünfer = new Title(308, 263, 12, "#23150c", "Fünfer:");
+  let sechser = new Title(308, 283, 12, "#23150c", "Sechser:");
 
-  let gsmt = new Title(308, 303, 16, "#23150c", "Gesamt:");
-  let bonus = new Title(308, 323, 16, "#23150c", "Bonus:");
-  let gsmtoben1 = new Title(308, 343, 16, "#23150c", "Gesamt oben:");
+  let gsmt = new Title(308, 303, 12, "#23150c", "Gesamt:");
+  let bonus = new Title(308, 323, 12, "#23150c", "Bonus:");
+  let gsmtoben1 = new Title(308, 343, 12, "#23150c", "Gesamt oben:");
 
-  let dreierpasch = new Title(308, 363, 16, "#23150c", "Dreierpasch:");
-  let viererpasch = new Title(308, 383, 16, "#23150c", "Viererpasch:");
-  let fullhouse = new Title(308, 403, 16, "#23150c", "Fullhouse:");
-  let kleineStrasse = new Title(308, 423, 16, "#23150c", "Kleine Straße:");
-  let grosseStrasse = new Title(308, 443, 16, "#23150c", "Große Straße:");
-  let kniffel = new Title(308, 463, 16, "#23150c", "Kniffel:");
-  let chance = new Title(308, 483, 16, "#23150c", "Chance:");
+  let dreierpasch = new Title(308, 363, 12, "#23150c", "Dreierpasch:");
+  let viererpasch = new Title(308, 383, 12, "#23150c", "Viererpasch:");
+  let fullhouse = new Title(308, 403, 12, "#23150c", "Fullhouse:");
+  let kleineStrasse = new Title(308, 423, 12, "#23150c", "Kleine Straße:");
+  let grosseStrasse = new Title(308, 443, 12, "#23150c", "Große Straße:");
+  let kniffel = new Title(308, 463, 12, "#23150c", "Kniffel:");
+  let chance = new Title(308, 483, 12, "#23150c", "Chance:");
 
-  let gsmtunten = new Title(308, 503, 16, "#23150c", "Gesamt unten:");
-  let endsumme = new Title(308, 543, 16, "#23150c", "Endsumme:");
+  let gsmtunten = new Title(308, 503, 12, "#23150c", "Gesamt unten:");
+  let endsumme = new Title(308, 543, 12, "#23150c", "Endsumme:");
   einser.display();
   zweier.display();
   dreier.display();
@@ -104,12 +104,12 @@ function textPasche() {
 }
 
 function textSpiel() {
-  let spielEins = new Title(355, 165, 16, "#23150c", "1.Spiel");
-  let spielZwei = new Title(407, 165, 16, "#23150c", "2.Spiel");
-  let spielDrei = new Title(457, 165, 16, "#23150c", "3.Spiel");
-  let spielVier = new Title(507, 165, 16, "#23150c", "4.Spiel");
-  let spielFünf = new Title(557, 165, 16, "#23150c", "5.Spiel");
-  let spielSechs = new Title(607, 165, 16, "#23150c", "6.Spiel");
+  let spielEins = new Title(355, 165, 12, "#23150c", "1.Spiel");
+  let spielZwei = new Title(407, 165, 12, "#23150c", "2.Spiel");
+  let spielDrei = new Title(457, 165, 12, "#23150c", "3.Spiel");
+  let spielVier = new Title(507, 165, 12, "#23150c", "4.Spiel");
+  let spielFünf = new Title(557, 165, 12, "#23150c", "5.Spiel");
+  let spielSechs = new Title(607, 165, 12, "#23150c", "6.Spiel");
 
   spielEins.display();
   spielZwei.display();

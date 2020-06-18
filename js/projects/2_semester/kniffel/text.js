@@ -9,7 +9,7 @@ export default class Title {
   display() {
     fill(this.color);
     noStroke();
-    textSize(size);
+    textSize(this.size);
     textAlign(RIGHT);
     text(this.title, this.x, this.y);
   }

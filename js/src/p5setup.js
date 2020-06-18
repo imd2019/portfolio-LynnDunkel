@@ -39,15 +39,6 @@ function preload() {
   wood = loadImage("../img/projects/kniffel/wood.svg");
 }
 
-function setup() {
-  createCanvas(windowWidth, windowHeight);
-  frameRate(30);
-}
-
-new p5();
-var width = windowWidth;
-var height = windowHeight;
-
 window.addEventListener("resize", function () {
   resizeCanvas(windowWidth, windowHeight);
   clear();
