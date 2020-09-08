@@ -39,7 +39,7 @@ function preload() {
   wood = loadImage("../img/projects/kniffel/wood.svg");
 }
 
-window.addEventListener("resize", function () {
-  resizeCanvas(windowWidth, windowHeight);
-  clear();
-});
+// window.addEventListener("resize", function () {
+//   resizeCanvas(windowWidth, windowHeight);
+//   clear();
+// });
