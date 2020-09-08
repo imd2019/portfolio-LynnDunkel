@@ -17,7 +17,7 @@ export default class Dice extends Button {
     this.colorDiceInside = colorDiceInside;
     this.colorDiceDeactivated = colorDiceDeactivated;
     this.number = [1, 2, 3, 4, 5, 6];
-    this.value = random(this.number);
+    this.value = 0;
     this.rightToDice = true;
     this.mode = false;
   }
